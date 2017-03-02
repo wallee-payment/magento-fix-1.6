@@ -1,4 +1,4 @@
-# magento-fix-1.6
+# Wallee: Fix for Magento 1.6
 For the [Wallee Payment extension](https://github.com/wallee-payment/magento) to work property in Magento 1.6, this extension is required.
 
 ## Installation
