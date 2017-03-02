@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Wallee_Fix16>
+			<version>1.0.0</version>
+		</Wallee_Fix16>
+	</modules>
+	<global>
+		<models>
+			<wallee_fix16>
+				<class>Wallee_Fix16_Model</class>
+			</wallee_fix16>
+
+			<adminhtml>
+				<rewrite>
+					<config>Wallee_Fix16_Model_Adminhtml_Config</config>
+				</rewrite>
+			</adminhtml>
+		</models>
+	</global>
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<wallee_fix16 before="Mage_Adminhtml">Wallee_Fix16_Adminhtml</wallee_fix16>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+</config>

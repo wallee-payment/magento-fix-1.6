@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <modules>
+        <Wallee_Fix16>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Wallee_Payment/>
+            </depends>
+        </Wallee_Fix16>
+    </modules>
+</config>
