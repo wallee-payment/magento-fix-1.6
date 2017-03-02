@@ -8,4 +8,4 @@ For the [Wallee Payment extension](https://github.com/wallee-payment/magento) to
 
 ## License
 
-Please see the [license file](https://github.com/wallee-payment/wallee-fix-1.6/blob/master/LICENSE) for more information.
+Please see the [license file](https://github.com/wallee-payment/magento-fix-1.6/blob/master/LICENSE) for more information.
